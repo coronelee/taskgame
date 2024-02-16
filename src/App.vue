@@ -12,9 +12,7 @@ const randomRound = ref([])
 const playerRounds = ref([])
 const clicks = ref(0)
 
-onMounted(() => {
-  startGame()
-})
+ 
 
 const startGame = () => {
   setTimeout(() => {
